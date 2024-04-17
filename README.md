@@ -61,18 +61,17 @@ This project implements a Horizontal Time Scale Plot to visualize sample data ov
 - **Generated Sample Data File by Simulator**: `generated-sample.json` (Timestamps are in UTC)
 
 ## Screenshots
-
-![Data Visualization](screenshots/data_visualization_ShubhamSamarth.png)
 *Data Visualization*
+![Data Visualization](screenshots/data_visualization_ShubhamSamarth.png)
 
-![Sample Generation (Input)](screenshots/sample_generation_input_ShubhamSamarth.png)
 *Sample Generation (Input)*
+![Sample Generation (Input)](screenshots/sample_generation_input_ShubhamSamarth.png)
 
-![Generated Sample](screenshots/generated_sample_ShubhamSamarth.png)
 *Generated Sample*
+![Generated Sample](screenshots/generated_sample_ShubhamSamarth.png)
 
-![Weather Information](screenshots/weather_ShubhamSamarth.png)
 *Weather Information*
+![Weather Information](screenshots/weather_ShubhamSamarth.png)
 
 ## Disclaimer
 - **Data Accuracy**:
