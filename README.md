@@ -1,70 +1,76 @@
-# Getting Started with Create React App
+# MERN Project: Horizontal Time Scale Plot and Weather API integration
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Submitted By: Shubham Samarth (PD0504)
+## Task Assigned By: Wathare Infotech Solutions
+## Date: April 17, 2024
 
-## Available Scripts
+## Description
+This project implements a Horizontal Time Scale Plot to visualize sample data over time and showcases Weather API integration. The project utilizes a MERN stack (MongoDB, Express.js, React.js, Node.js) to manage data, serve APIs, and render the user interface.
 
-In the project directory, you can run:
+## Project Structure
+- **Server**: Backend server for managing data and serving APIs.
+- **Client**: Frontend application built with React.js for user interface.
 
-### `npm start`
+## Instructions
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Running the Server
+1. Navigate to the server directory:
+    ```
+    cd wisassignment\server
+    ```
+2. Start the server by running the following command:
+    ```
+    node server.js
+    ```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Running the Client
+1. Navigate to the client directory:
+    ```
+    cd wisassignment\client
+    ```
+2. Start the client application by running the following command:
+    ```
+    npm start
+    ```
 
-### `npm test`
+### Assignment Details
+- **Importing Sample Data**:
+    - Import raw sample data set to a DB Collection.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **Horizontal Time Scale**:
+    - The project represents data on a horizontal time scale.
+    - Timestamps are provided in the sample raw data.
 
-### `npm run build`
+- **Data Visualization**:
+    - Plot yellow if the sample is 0, green if the sample is 1, and red if the sample is missing.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Summary Generation**:
+    - Generate a summary in tabular format, including the number of 1s, the number of 0s, and continuous variations of 0s and 1s.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- **API Development**:
+    - Write APIs to filter the data based on time ranges.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- **Third-Party Integration**:
+    - Integrate a third-party API to fetch location and related temperature data from the internet.
 
-### `npm run eject`
+- **Bonus**:
+    - A sample data generation simulator is provided in JavaScript.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## File Information
+- **Provided Sample Data File**: `sample-data.json`
+- **Generated Sample Data File by Simulator**: `generated-sample.json` (Timestamps are in UTC)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Screenshots
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Dashboard
+![Dashboard](screenshots/dashboard.png)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Data Visualization
+![Data Visualization](screenshots/data_visualization_ShubhamSamarth.png)
+![Sample Generation (Input)](screenshots/sample_generation_input_ShubhamSamarth.png)
+![Generated Sample](screenshots/generated_sample_ShubhamSamarth.png)
+![Weather Information](screenshots/weather_ShubhamSamarth.png)
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Disclaimer
+- **Data Accuracy**:
+    - Data obtained from the third-party API may be inaccurate as the API is free and available for testing purposes only.
