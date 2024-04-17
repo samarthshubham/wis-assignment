@@ -1,8 +1,8 @@
 # MERN Project: Horizontal Time Scale Plot and Weather API integration
 
-## Submitted By: Shubham Samarth (PD0504)
-## Task Assigned By: Wathare Infotech Solutions
-## Date: April 17, 2024
+### Submitted By: Shubham Samarth (PD0504)
+### Task Assigned By: Wathare Infotech Solutions
+### Date: April 17, 2024
 
 ## Description
 This project implements a Horizontal Time Scale Plot to visualize sample data over time and showcases Weather API integration. The project utilizes a MERN stack (MongoDB, Express.js, React.js, Node.js) to manage data, serve APIs, and render the user interface.
@@ -62,14 +62,17 @@ This project implements a Horizontal Time Scale Plot to visualize sample data ov
 
 ## Screenshots
 
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Data Visualization
 ![Data Visualization](screenshots/data_visualization_ShubhamSamarth.png)
+*Data Visualization*
+
 ![Sample Generation (Input)](screenshots/sample_generation_input_ShubhamSamarth.png)
+*Sample Generation (Input)*
+
 ![Generated Sample](screenshots/generated_sample_ShubhamSamarth.png)
+*Generated Sample*
+
 ![Weather Information](screenshots/weather_ShubhamSamarth.png)
+*Weather Information*
 
 ## Disclaimer
 - **Data Accuracy**:
